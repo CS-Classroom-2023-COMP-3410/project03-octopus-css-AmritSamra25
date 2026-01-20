@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>The Fascinating World of Octopuses</title>
+
+    <!-- External stylesheet required by the assignment -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (allowed by assignment): small global tweaks that are safe everywhere -->
+    <style>
+        /* Keep layout predictable across browsers */
+        * { box-sizing: border-box; }
+    </style>
 </head>
 
 <body>
@@ -60,6 +69,7 @@
         <div id="quiz-section">
 
             <!-- Image -->
+            <!-- NOTE: Image is styled in CSS to match the screenshot (right side, purple border) -->
             <img src="octopus-image.png" alt="Image of an octopus" width="100">
 
             <h2>Octopus Quiz</h2>
@@ -81,7 +91,8 @@
     <!-- Table -->
     <div id="species-table">
         <h2>Common Octopus Species</h2>
-        <table border="1">
+        <!-- Border is handled by CSS so the screenshot look is consistent -->
+        <table>
             <tr>
                 <th>Species</th>
                 <th>Location</th>

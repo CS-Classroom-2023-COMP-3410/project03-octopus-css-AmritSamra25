@@ -1,0 +1,193 @@
+
+/* Page background + default font */
+body {
+    margin: 0;
+    background-color: #d6d6d6; /* light grey outer background like screenshot */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+  }
+  
+
+  #header {
+    background-color: #1e73d8; /* strong blue header */
+    text-align: center;
+    padding: 26px 12px 18px 12px; /* big top bar feel */
+  }
+  
+  #header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 44px; /* big title */
+    font-weight: 800;
+    letter-spacing: 0.5px;
+  }
+  
+  #header p {
+    margin: 6px 0 0 0;
+    color: #eaf3ff;
+    font-style: italic; /* screenshot subtitle is italic */
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+ 
+  #main-content {
+    background-color: #efefef;      /* light grey panel */
+    width: 92%;
+    max-width: 980px;              /* keeps it centered and readable */
+    margin: 0 auto;
+    padding: 22px 20px 26px 20px;
+  }
+  
+  #main-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase; /* INTRODUCTION is uppercase */
+  }
+  
+  #main-content h3 {
+    margin: 14px 0 8px 0;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase; /* AMAZING FACTS is uppercase */
+  }
+  
+  #main-content h4 {
+    margin: 18px 0 8px 0;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  #main-content h5,
+  #main-content h6 {
+    margin: 18px 0 8px 0;
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  /* Paragraph spacing */
+  #main-content p {
+    margin: 10px 0;
+    line-height: 1.45;
+  }
+  
+
+  #main-content ul,
+  #main-content ol {
+    margin: 8px 0 14px 26px;
+  }
+  
+  /* Highlight the word "mantle" in red like screenshot */
+  .important {
+    color: #ff2a2a;
+    font-weight: 800;
+  }
+  
+  /* Links: standard blue (screenshot shows blue links) */
+  a {
+    color: #0b57d0;
+  }
+  
+
+  #quiz-section {
+    margin-top: 22px;
+    background-color: #dff3ff;     /* light blue panel */
+    border: 1px solid #bfbfbf;     /* subtle border */
+    padding: 18px;
+    position: relative;            /* allows easy image positioning */
+    min-height: 150px;
+  }
+  
+  /* Quiz title: screenshot shows bold uppercase heading */
+  #quiz-section h2 {
+    margin: 0 0 12px 0;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  /* Move the image to the right like screenshot */
+  #quiz-section img {
+    position: absolute;
+    right: 26px;
+    top: 32px;
+    width: 100px;
+    height: auto;
+    border: 3px solid #6a00ff;   /* purple border */
+    background-color: #000;      /* helps if PNG has transparency */
+  }
+  
+  /* Form spacing to resemble screenshot */
+  #quiz-section form {
+    margin-top: 6px;
+    max-width: 700px;
+  }
+  
+  /* Keep labels readable and inputs aligned */
+  #quiz-section label {
+    display: inline-block;
+    width: 290px; /* lines up fields like screenshot */
+    margin: 4px 0;
+  }
+  
+  #quiz-section input[type="text"] {
+    width: 190px;
+    height: 22px;
+    border: 1px solid #8f8f8f;
+  }
+  
+  /* "Submit Quiz" button: small grey rectangle */
+  #quiz-section input[type="submit"] {
+    margin-top: 8px;
+    border: 1px solid #8f8f8f;
+    background-color: #e6e6e6;
+    padding: 2px 8px;
+    cursor: pointer;
+  }
+  
+
+  #species-table {
+    background-color: #efefef;
+    width: 92%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px 18px 20px; /* continue the panel under quiz */
+  }
+  
+  /* Table title matches screenshot (big, bold) */
+  #species-table h2 {
+    margin: 14px 0 8px 0;
+    font-size: 28px;
+    font-weight: 900;
+  }
+  
+  /* Table styling: thick borders + grey header row */
+  #species-table table {
+    border-collapse: collapse;
+    width: 430px;                 /* screenshot table is not full-width */
+    border: 2px solid #6f6f6f;
+    background-color: #f8f8f8;
+  }
+  
+  #species-table th,
+  #species-table td {
+    border: 2px solid #6f6f6f;
+    padding: 8px 10px;
+    text-align: left;
+  }
+  
+  #species-table th {
+    background-color: #9a9a9a;
+    color: #fff;
+    font-weight: 900;
+  }
+  
+
+  #footer {
+    background-color: #cfcfcf;
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 13px;
+  }
+  
